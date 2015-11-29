@@ -1,0 +1,63 @@
+!urxvt color scheme:
+
+URxvt*background: #1D1E22
+URxvt*foreground: #DEDEDE
+
+URxvt*colorUL: #86a2b0
+
+! black
+URxvt*color0  : #2E3436
+URxvt*color8  : #555753
+! red
+URxvt*color1  : #CC0000
+URxvt*color9  : #EF2929
+! green
+URxvt*color2  : #4E9A06
+URxvt*color10 : #8AE234
+! yellow
+URxvt*color3  : #C4A000
+URxvt*color11 : #FCE94F
+! blue
+URxvt*color4  : #3465A4
+URxvt*color12 : #729FCF
+! magenta
+URxvt*color5  : #75507B
+URxvt*color13 : #AD7FA8
+! cyan
+URxvt*color6  : #06989A
+URxvt*color14 : #34E2E2
+! white
+URxvt*color7  : #D3D7CF
+URxvt*color15 : #EEEEEC
+
+!urxvt fonts: 
+
+URxvt*font: xft:Tamsyn:pixelsize=16
+URxvt*boldFont: xft:Tamsyn:bold:pixelsize=16
+
+! scrollbar style - rxvt (default), plain (most compact), next, or xterm
+URxvt.scrollstyle: plain
+
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:  chromium
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt.keysym.M-c:           perl:clipboard:copy
+URxvt.keysym.M-v:           perl:clipboard:paste
+URxvt.keysym.M-C-v:         perl:clipboard:paste_escaped
+
+Xft.dpi:	96
+Xft.rgba:	rgb
+Xft.antialias: 	1
+Xft.hinting: 	1
+Xft.autohint: 	0
+Xft.hintstyle: 	hintslight
+Xft.lcdfilter: 	lcddefault
+
+xclock*majorColor: #9a875f
+xclock*minorColor: #9a875f
+xclock*minuteColor: #9a875f
+xclock*hourColor: #9a875f
+xclock*secondColor: #9a875f
