@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="Xresources"    # list of files/folders to symlink in homedir
+files="Xdefaults mpd ncmpcpp"    # list of files/folders to symlink in homedir
 
 ##########
 
